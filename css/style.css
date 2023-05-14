@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black
+    }
+    
+    h1, h2, h3,h4,h5{
+    font-family: 'Great Vibes', cursive;
+    color: white;
+ }
+
+ p{
+    font-family:'Kaushan Script', cursive;
+    text-align: justify;
+    color: white;
+ }
+ h1, h3{
+   text-align: center;
+   font-size: 3rem;
+ }
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+.header .logo{
+    cursor: pointer;
+ }
+ .header .logo img{
+    width: 110px;
+    transition: all 0.3s;
+ }
+ .header .logo img:hover{
+    transform: scale(1.2);
+ }
+ .header .links li{
+    display: inline-flex;
+    padding: 20px;
+}
+
+.header .links a{
+    font-family:'Kaushan Script', cursive;
+   font-size:1rem ;
+   color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
